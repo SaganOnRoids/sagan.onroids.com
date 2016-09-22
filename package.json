@@ -1,0 +1,22 @@
+{
+  "name": "sagan.onroids.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-id_sagan:SaganOnRoids/sagan.onroids.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cssnano": "^3.7.5",
+    "nodemon": "^1.10.2",
+    "postcss-cli": "^2.6.0",
+    "postcss-cssnext": "^2.8.0",
+    "postcss-import": "^8.1.2"
+  }
+}

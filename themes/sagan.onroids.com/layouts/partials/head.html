@@ -1,0 +1,72 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ .Hugo.Generator }}
+    <title>{{ .Title }}</title>
+    {{ with .Site.Params.bing_webmaster }}
+        <meta name="msvalidate.01" content="{{ . }}" />
+    {{ end }}
+    {{ with .Site.Params.google_webmaster }}
+        <meta name="google-site-verification" content="{{ . }}" />
+    {{ end }}
+    {{ with .Site.Params.alexa }}
+        <meta name="alexaVerifyID" content="{{ . }}" />
+    {{ end }}
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}" />
+    <meta name="keywords" content='{{ with .Params.tags }}{{ delimit . "," }}{{ else }}{{ delimit .Site.Params.keywords "," }}{{ end }}' />
+    {{ with .Params.author }}
+        <meta name="author" content="{{ . }}" />
+    {{ end }}
+    {{ with .Site.Params.favicon }}
+        <link rel="icon" type="image/png" href="{{ . }}" sizes="196x196" />
+    {{ end }}
+    {{ if not (in (printf "%#v" .Site.BaseURL) "localhost") }}
+        {{ with .Site.Params.google_adsense }}
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({
+                    google_ad_client: "{{ . }}",
+                    enable_page_level_ads: true
+                });
+            </script>
+        {{ end }}
+    {{ end }}
+
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        iframe {
+            display: block;
+        }
+        body {
+            background: #100606;
+            color: #fff;
+            font-family: VT323, monospace;
+        }
+        a {
+            color: #b90000;
+            text-decoration: none;
+        }
+        h1 {
+            font-size: 48px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        .container {
+            width: 853.33px;
+            margin: 0 auto;
+        }
+        .videos a {
+            display: block;
+            width: 50%;
+            float: left;
+        }
+        .videos img {
+            display: block;
+            width: 100%;
+        }
+    </style>
+</head>

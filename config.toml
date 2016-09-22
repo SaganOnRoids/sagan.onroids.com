@@ -1,15 +1,47 @@
 baseurl = "https://sagan.onroids.com/"
 languageCode = "en-us"
 title = "sagan.onroids.com"
+builddrafts = false
+canonifyurls = true
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+author = "Sagan on Roids"
+pygmentsuseclasses = true
+disqusShortname = "cocoaexamplesite" # Comment out to disable Disqus.
+pluralizelisttitles = false
 
 [permalinks]
-    post = "/:year/:month/:slug/"
-    page = "/:slug/"
+    post = "/:slug"
+    page = "/:slug"
 
 [taxonomies]
     tag = "tags"
     category = "categories"
 
 [params]
-    keywords = ["default", "keywords", "if", "no", "front", "matter"]
+    keywords = ["dirty bomb", "db", "if", "no", "front", "matter"]
     description = "A description that will appear as a default if front matter does not exist"
+    googleAnalytics = "UA-83387878-1"
+    disqus = "sagan-on-roids"
+    disqusShortname = "sagan-on-roids"
+    google_webmaster = "BYnLPcCuHN1J9ExqhDY9mlTHUvSwV5IoF39Oy-1CXIw"
+    bing_webmaster = ""
+    alexa = ""
+    googleplus = ""
+    linkedin = ""
+    youtube = ""
+    paypal = ""
+    Author = "Sagan on Roids"
+    CacheBuster = true
+    DateForm = "Jan 2, 2006"
+    DateFormFull = "Mon Jan 2 2006 15:04:05 MST"
+    Email = "sagan@onroids.com"
+    FaviconFile = "img/leaf.ico"
+    GATracker = "XYZ"
+    GitHub = "//github.com/you"
+    HighlightJS = true
+    Initials = "ad" # Displayed on single post page; DEPRECATED in v0.3.0.
+    Lang = "en"
+    Twitter = "//twitter.com/Sagan_on_Roids"
+    ExtraCssFiles = [ "/css/override.css" ] # In your `static/css`, add/remove files as necessary.
