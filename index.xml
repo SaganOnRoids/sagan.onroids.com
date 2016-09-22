@@ -1,26 +1,151 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>sagan.onroids.com </title>
+    <title>sagan.onroids.com</title>
     <link>https://sagan.onroids.com/</link>
+    <description>Recent content on sagan.onroids.com</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2016</rights>
-    <updated>2016-08-30 11:24:08 -0600 MDT</updated>
-
+    <lastBuildDate>Tue, 30 Aug 2016 11:08:15 -0600</lastBuildDate>
+    <atom:link href="https://sagan.onroids.com/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Sagan on DB: Ode to ET</title>
+      <link>https://sagan.onroids.com/sagan-on-db-ode-to-et</link>
+      <pubDate>Tue, 30 Aug 2016 11:08:15 -0600</pubDate>
       
-        <item>
-          <title>intro</title>
-          <link>https://sagan.onroids.com/2016/08/intro/</link>
-          <pubDate>Tue, 30 Aug 2016 11:24:08 MDT</pubDate>
-          <author></author>
-          <guid>https://sagan.onroids.com/2016/08/intro/</guid>
-          <description>&lt;p&gt;Hello World&lt;/p&gt;
+      <guid>https://sagan.onroids.com/sagan-on-db-ode-to-et</guid>
+      <description>
+
+&lt;p&gt;Hello all and welcome to the first post in a series I&amp;rsquo;m calling &lt;a href=&#34;http://asdf.com&#34;&gt;Sagan on DB&lt;/a&gt;,
+where I&amp;rsquo;ll be writing about my thoughts and ideas about &lt;a href=&#34;http://dirtybomb.nexon.net/&#34;&gt;Dirty Bomb&lt;/a&gt;. I plan to
+cover various facets of the game, from reviving competitive, to map design,
+monetization, loadouts, crafting, and polish. In this post I&amp;rsquo;ll talk about why
+I still play Dirty Bomb, and what DB can learn from Enemy Territory.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Dirty Bomb is one of the best, most underrated FPS games available today.
+Heavily influenced by Splash Damage&amp;rsquo;s 2003 &lt;a href=&#34;http://www.splashdamage.com/wolfet&#34;&gt;Wolfenstein: Enemy Territory&lt;/a&gt;,
+Dirty Bomb is a rare combination of fast, skillful gunplay and smooth movement,
+with team-based spawn waves and map-specific objectives.&lt;/p&gt;
+
+&lt;p&gt;Unlike some other popular FPS games, every class in Dirty Bomb can be combat
+effective, and they all have moderately high skill ceilings. The classes
+are well balanced. There&amp;rsquo;s no overpowered abilities or stuns (other
+than Thunder). It&amp;rsquo;s not unusual to see support classes
+out-fragging Fraggers. Ultimately, if you have good game-sense
+and can land those crucial headshots, you will be effective no matter what class
+you are.&lt;/p&gt;
+
+&lt;p&gt;This makes learning Dirty Bomb tough. Most people won&amp;rsquo;t be able to install and
+instantly be good. In fact they&amp;rsquo;ll probably get demolished by veterans and
+promptly uninstall. Just like anything else, you have to practice to get
+better. But if you have the willpower to push through and learn from your
+mistakes, mastering a class in Dirty Bomb is one of the most satisfying feelings
+I&amp;rsquo;ve had in FPS gaming.&lt;/p&gt;
+
+&lt;p&gt;The skill ceiling also makes high-level competitive play really exciting to
+watch. I can still remember some of the early Dirty Cups tournament matches
+between v586 (pkD), SICK6, zfz, BzNs, and others. It was early days, and teams
+were still figuring out the competitive meta, but even then there were some
+incredibly exciting moments. Last second defuses, insane snipes, clutch plays,
+it was all there. It&amp;rsquo;s one of the best games to watch at a competitive level.&lt;/p&gt;
+
+&lt;p&gt;But Dirty Bomb is far from perfect. The competitive scene used to be very
+healthy, with several sponsored teams, prize money tournaments, thousands of
+Twitch viewers, and generally lots of excitement for the future. These days,
+not so much. Almost all of the teams that used to play in Dirty Cups/&lt;a href=&#34;http://dbnation.net&#34;&gt;DBN&lt;/a&gt;
+tournaments have left for other games, and they haven&amp;rsquo;t been replaced. Player
+numbers continue to &lt;a href=&#34;https://steamdb.info/app/333930/graphs/&#34;&gt;slowly decline&lt;/a&gt;. There aren&amp;rsquo;t many maps. Almost all of the
+maps have balance issues, some more than others (Terminal).
+Objective/Stopwatch maps have been left untouched for almost a year now. The
+loadout system is universally hated and needs significant changes. Ranked takes
+forever to find a match. And then there&amp;rsquo;s the bugs, the slow performance, UI sluggishness, et
+cetera, et cetera.&lt;/p&gt;
+
+&lt;p&gt;Dirty Bomb isn&amp;rsquo;t dead, but it doesn&amp;rsquo;t have the life that it used to. Right now,
+it feels like it&amp;rsquo;s in limbo. It still has incredible competitive potential,
+but there&amp;rsquo;s no telling if it will ever get there, or if the player numbers will
+continue to slowly decline until the game is completely irrelevant.&lt;/p&gt;
+
+&lt;p&gt;I still believe that Dirty Bomb can be the next Counter-Strike, but it is going
+to require Splash Damage to re-evaluate their priorities. To explain what
+these priorities should be, let&amp;rsquo;s take a brief look back at what made
+Splash Damage&amp;rsquo;s first game such a beloved classic.&lt;/p&gt;
+
+&lt;h2 id=&#34;wolfenstein-enemy-territory:18acb8724f109415abf4a83a71bc82ec&#34;&gt;Wolfenstein: Enemy Territory&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;(screenshot of ET)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Wolfenstein: Enemy Territory (ET) started development as a paid
+expansion for &lt;a href=&#34;https://en.wikipedia.org/wiki/Id_Software&#34;&gt;id Software&lt;/a&gt;&amp;rsquo;s &lt;a href=&#34;RtCW&#34;&gt;Return to Castle Wolfenstein&lt;/a&gt;. Development
+was split up between two companies, with Splash Damage being responsible for the
+multiplayer. The single-player campaign was never finished, and ET was going to
+be scraped, but thankfully id recognized the good hard work by Splash Damage and
+decided to release the game as a free, stand-alone title.&lt;/p&gt;
+
+&lt;p&gt;Remember, this was in 2003, before free-to-play and micro-transactions were a
+thing. This was incredible at the time.&lt;/p&gt;
+
+&lt;p&gt;All the things that make Dirty Bomb fun today were there in ET back then (and
+RtCW before that). It was fast, centered around gunplay, with spawn waves and
+objectives. Good simple fun.&lt;/p&gt;
+
+&lt;p&gt;As fun as it was, ET wasn&amp;rsquo;t without its problems. There were bugs. Hitboxes were
+weird. There were only six maps, some of which had major balance issues. Tools
+for competitive play just weren&amp;rsquo;t there. And since no one was making money from
+ET, it wasn&amp;rsquo;t looking like any of these issues would ever be fixed.&lt;/p&gt;
+
+&lt;p&gt;Despite this, over 13 years later ET lives on today with a &lt;a href=&#34;http://et.trackbase.net/map/2/&#34;&gt;surprisingly
+healthy playerbase&lt;/a&gt;. Right now you can install ET with the &lt;a href=&#34;https://www.etlegacy.com/&#34;&gt;ET: Legacy&lt;/a&gt;
+installer (or the &lt;a href=&#34;https://etui.kashu.fr/&#34;&gt;ET Ultimate Installer&lt;/a&gt; + &lt;a href=&#34;http://etkey.org/pages/punkbuster/auto---install-for-windows-by-harlekin.php&#34;&gt;ETKey installer&lt;/a&gt;), fire up the game,
+and have dozens of servers full of players to choose from.&lt;/p&gt;
+
+&lt;p&gt;How can a decade-old game with no developers still have a healthy playerbase?
+Because early on, Splash Damage released tools for community mods, maps, and
+servers. They gave the community the tools to grow organically.&lt;/p&gt;
+
+&lt;p&gt;Mod makers, like the team behind &lt;a href=&#34;http://etpro.anime.net/&#34;&gt;ETPro&lt;/a&gt;, fixed hitboxes, fixed bugs, added
+competitive rulesets, spectator locking, referee commands, new weapons, new
+textures, new sounds, and more.&lt;/p&gt;
+
+&lt;p&gt;Map makers fixed balance issues in Splash Damage&amp;rsquo;s official maps, ported old
+RtCW maps, and created hundreds of new maps.&lt;/p&gt;
+
+&lt;p&gt;Finally, community servers brought mods and maps together to tailor whatever
+kind of experience they wanted.&lt;/p&gt;
+
+&lt;p&gt;Some servers focused on competitive. Those
+servers would usually run ETPro, have limited slots, friendly-fire on, and run
+maps that were in the competitive rotation. If you joined one of these servers
+you better be prepared for a challenge because you were going to be playing with
+the best.&lt;/p&gt;
+
+&lt;p&gt;Most of the servers weren&amp;rsquo;t like this though. In fact, the majority of servers
+were pretty casual. Most people didn&amp;rsquo;t care about competitive or
+being the best, they just wanted to play some games with their friends. These
+servers would usually run mods like Jaymod, which added stuff like shotguns,
+poison gas, and throwing knives. They&amp;rsquo;d run all kinds of different maps, too.
+Baserace, the ultimate casual pub map, was a capture-the-flag style map that had
+teams steal crates from the enemy base to upgrade their own. They could chose to
+upgrade their walls, create turrets, sniper towers, supply stations, etc. It was
+a lot of fun.&lt;/p&gt;
+
+&lt;p&gt;Then there were the trickjumping servers, which were a completely different
+experience from the rest of the game. They would usually run a mod like [TJMod]
+that let you save/teleport to a position in the map. This would make practicing
+trickjumps a lot easier. Some trickjumping maps were just a compilation of jumps
+from competitive maps. Others focused on gamma jumps&lt;/p&gt;
+
+&lt;p&gt;This holy trifecta of community mods, maps, and servers, is what enabled ET to
+persevere while other games come and go.&lt;/p&gt;
+
+&lt;p&gt;Dirty Bomb in its current state reminds me a lot of vanilla ET. It&amp;rsquo;s a fun,
+solid shooter, but the maps aren&amp;rsquo;t the best and it&amp;rsquo;s missing a lot of features
+for competitive play. It hasn&amp;rsquo;t reached its full potential.&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>
